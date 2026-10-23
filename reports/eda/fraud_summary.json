@@ -1,0 +1,5 @@
+{
+    "legitimate_transactions": 6354407,
+    "fraud_transactions": 8213,
+    "fraud_rate_percent": 0.1291
+}

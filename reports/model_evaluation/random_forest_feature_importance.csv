@@ -1,0 +1,14 @@
+feature,importance
+numeric__errorBalanceOrig,0.39354835573381564
+numeric__newbalanceOrig,0.16136611262283762
+numeric__oldbalanceOrg,0.1255313757432635
+numeric__amount,0.07718281101712228
+categorical__type_PAYMENT,0.05589607938028182
+categorical__type_TRANSFER,0.044458502597677245
+numeric__errorBalanceDest,0.032717984982220144
+numeric__step,0.029037116483844203
+categorical__type_CASH_OUT,0.027630673273889857
+numeric__newbalanceDest,0.022245449822456576
+categorical__type_CASH_IN,0.01714722224825306
+numeric__oldbalanceDest,0.012388929136856585
+categorical__type_DEBIT,0.0008493869574813246

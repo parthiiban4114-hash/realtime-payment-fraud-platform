@@ -1,0 +1,42 @@
+{
+    "features": [
+        "amount",
+        "step",
+        "oldbalanceOrg",
+        "oldbalanceDest",
+        "type"
+    ],
+    "step_cutoff": 355.0,
+    "training_rows": 5113884,
+    "test_rows": 1248736,
+    "training_fraud_cases": 3963,
+    "test_fraud_cases": 4250,
+    "average_precision_pr_auc": 0.7842862460230307,
+    "baseline_threshold": 0.5,
+    "baseline_precision": 0.9982352941176471,
+    "baseline_recall": 0.3992941176470588,
+    "baseline_f1_score": 0.5704201680672268,
+    "baseline_confusion_matrix": [
+        [
+            1244483,
+            3
+        ],
+        [
+            2553,
+            1697
+        ]
+    ],
+    "minimum_precision_target": 0.95,
+    "best_threshold_result": {
+        "threshold": 0.2,
+        "precision": 0.9789817842129845,
+        "recall": 0.49317647058823527,
+        "f1_score": 0.6559223908621499,
+        "true_positives": 2096,
+        "false_positives": 45,
+        "false_negatives": 2154,
+        "true_negatives": 1244441
+    },
+    "training_seconds": 116.59,
+    "note": "Threshold selection on this test set is exploratory. Use a separate validation period to select the final threshold and preserve an untouched test set for final performance reporting."
+}
